@@ -11,6 +11,7 @@ export function StorageStack({stack,app}){
 
     const bucket = new Bucket(stack,"Uploads");
     return {
+        table,
         bucket
     }
 }
